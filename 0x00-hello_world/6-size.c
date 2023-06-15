@@ -6,5 +6,5 @@ int main(void)
 	printf("size of float data types in C: %zu bytes\n", sizeof(float));
 	printf("size of long long int data types in C: %zu bytes\n", sizeof(long long int));
 	printf("size of char data types in C: %zu bytes\n", sizeof(char));
-	return (0)
+	return (0);
 }
