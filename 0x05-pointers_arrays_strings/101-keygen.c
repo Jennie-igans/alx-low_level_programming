@@ -26,6 +26,7 @@ if (sum != 2772)
 {
 diff_half1 = (sum - 2772) / 2;
 diff_half2 = (sum - 2772) / 2;
+}
 
 if ((sum - 2772) % 2 != 0)
 diff_half1++;
@@ -51,5 +52,4 @@ break;
 }
 printf("%s", password);
 return (0);
-}
 }
