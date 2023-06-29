@@ -6,7 +6,7 @@
  * @dest: destination input value
  * @src: source input value
  * @n: input value
- * Return: Dest
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -19,6 +19,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		i++;
 	}
+	j = 0;
 	while (j < n && src[j] != '\0')
 	{
 		dest[i] = src[j];
