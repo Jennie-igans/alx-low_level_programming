@@ -35,7 +35,7 @@ a++;
 while (n < len2 && a < (len1 + n))
 s[a++] = s2[b++];
 
-while (n <= len2 && a < (len1 + len2))
+while (n >= len2 && a < (len1 + len2))
 s[a++] = s2[b++];
 s[a] = '\0';
 return (s);
