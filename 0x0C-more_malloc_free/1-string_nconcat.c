@@ -22,7 +22,7 @@ len2++;
 if (n < len2)
 s = malloc(sizeof(char) * (len1 + n + 1));
 else
-s = malloc(sizeof(char) * (len2 + len1 + 1));
+s = malloc(sizeof(char) * (len1 + len2 + 1));
 
 if (!s)
 return (NULL);
@@ -32,11 +32,11 @@ while (a < len1)
 s[a] = s1[a];
 a++;
 }
-while (n < len2 && a < (len2 + n))
-s[a++] = s1[b++];
+while (n < len2 && a < (len1 + n))
+s[a++] = s2[b++];
 
-while (n <= len2 && a < (len2 + len1))
-s[a++] = s1[b++];
+while (n <= len2 && a < (len1 + len2))
+s[a++] = s2[b++];
 s[a] = '\0';
 return (s);
 }
