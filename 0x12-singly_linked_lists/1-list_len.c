@@ -1,6 +1,5 @@
-#include "lists.h"
 #include <stdlib.h>
-#include <stddef.h>
+#include "lists.h"
 
 /**
  * list_len - returns the number of elements in a linked list
@@ -17,7 +16,6 @@ while (h)
 n++;
 h = h->next;
 }
-/* calculates and returns the size of a singly linked list*/
-/* counting the number of nodes along the way*/
+/*calculates and returns the sise of singly linked list */
 return (n);
 }
